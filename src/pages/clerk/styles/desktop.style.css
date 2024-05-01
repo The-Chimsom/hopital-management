@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f3f3;
+ font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  height: 42.5rem;
+  position: absolute;
+}
+
+.navbar {
+  height: 4rem;
+  background-color: #ffffff;
+  border-radius: 0rem 0rem 1rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.container-fluid {
+  display: flex;
+  margin-left: 3.3rem;
+  margin-right: 2rem;
+  text-align: left;
+  font: normal normal bold 14px/18px Montserrat;
+  letter-spacing: 1px;
+  color: #478984;
+  opacity: 1;
+  justify-content: space-between;
+}
+
+.logged-profile{
+  display: flex;
+  flex-direction: row;
+  gap: 0.7rem;
+}
+
+.logged-profile i{
+  font-size: 1.2rem;
+}
+
+.profile-circle{
+  height: 2rem;
+}
+
+.profile-circle i{
+  font-size: 2.5rem;
+}
+
+.bi-person-circle{
+  height: 100%;
+}
+
+.user{
+  flex-direction: column;
+}
+
+.role{
+  font-size: 0.6rem;
+}
+
+aside {
+  margin-top: 0.5rem;
+  width: 4.5rem;
+  height: 41.375rem;
+  opacity: 1;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.toggle-btn,
+.bi-person-circle {
+  height: 3.25rem;
+  width: fit-content;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: none;
+  background-color: #ffffff;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  margin-top: 1.5rem;
+  color: #478984;
+}
+
+.toggle-btn:hover {
+  transition: all 0.5s ease-in-out;
+  background: #05f0dc;
+}
+
+.toggle-btn i {
+  font-size: 1.5rem;
+  color: #478984;
+}
+
+.sidebar-nav .sidebar-item i {
+  font-size: 1.2rem;
+}
+
+.bi-person-circle {
+  font-size: 1.5rem;
+  width: fit-content;
+  margin-top: 3rem;
+  bottom: 0;
+  color: #478984;
+}
+
+.search-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  gap: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.arrow-left,
+.arrow-right,
+.clock {
+  margin-top: 1rem;
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #22377b15 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-left {
+  margin-left: 9rem;
+}
+
+.arrow i,
+.clock i {
+  font-size: 0.8rem;
+  color: #478984;
+  font-weight: bold;
+}
+
+.clock i {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3rem;
+}
+
+.search-box {
+  height: 3rem;
+  width: 35rem;
+  background-color: white;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.sort-box {
+  height: 3rem;
+  width: 10rem;
+  background-color: white;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.filter {
+  margin-top: 0.7rem;
+  font: normal normal normal 0.8rem/0.9rem Montserrat;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.filter i {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.filter-text {
+  height: 1.2rem;
+  width: 8rem;
+  justify-content: center;
+}
+
+.res-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+thead {
+  background-color: hsl(254, 96%, 48%);
+  height: auto;
+  width: 40rem;
+  border-radius: 0.5rem;
+}
+
+th {
+  width: 16.67%;
+}
+
+.table-wrapper {
+  margin: 0 3rem 0 7rem;
+  position: relative;
+}
+
+#tab th {
+  background-color: #e6e6e6;
+  color: #478984;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+th i{
+  font-size: 1rem;
+}
+
+td {
+  margin-top: 1rem;
+  text-align: center;
+  font: normal normal normal 16px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #478984;
+  opacity: 1;
+}
+
+.se {
+  width: 25rem;
+  height: 2rem;
+  text-align: left;
+  font: normal normal normal 1.4rem/1.6rem Montserrat;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  font-weight: 400;
+}
+
+.lv {
+  width: 9rem;
+  height: 1rem;
+  text-align: left;
+  font: normal normal normal 0.6rem/0.4rem Montserrat;
+  letter-spacing: 0px;
+  color: #478984;
+  opacity: 1;
+  margin-bottom: 1rem;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-icon {
+  width: 1rem;
+  height: 1rem;
+  color: #478984;
+  margin: 0.7rem 1rem 0 1rem;
+}
+
+.search-text {
+  color: #478984;
+  margin: 0.9rem 1rem 0 1rem;
+  font: normal normal normal 16px/19px Montserrat;
+}
+
+.sort-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font: normal normal normal 16px/19px Montserrat;
+  color: #478984;
+  padding: 0 1rem 0 1rem;
+}
+
+button {
+  background-color: #65c4bd;
+  color: white;
+  border: none;
+  height: 3rem;
+  width: 9rem;
+  opacity: 1;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+tbody > tr {
+  height: 2rem;
+  margin-top: 1rem;
+}
