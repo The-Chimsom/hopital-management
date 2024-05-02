@@ -1,4 +1,5 @@
 import { Navbar } from "../../components/navbar";
+import { SearchBar } from "../../components/search-bar";
 import { Sidebar } from "../../components/sidebar";
 
 export function ClerkDashboard(){
@@ -6,6 +7,7 @@ export function ClerkDashboard(){
         <div>
             <Navbar/>
             <Sidebar/>
+            <SearchBar/>
         </div>
     )
 }
