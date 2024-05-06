@@ -12,6 +12,9 @@ const router = createBrowserRouter([
     path: '/',
     element: < ClerkDashboard />,
   },
+  {
+    
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

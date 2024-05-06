@@ -2,7 +2,7 @@ import "../pages/clerk/styles/desktop.style.css";
 
 export function SearchBar() {
   return (
-    <div className="wrap ">
+    <div className="wrap">
       <div className="border-bottom">
         <div className="search-wrapper">
           <div className="arrow">
